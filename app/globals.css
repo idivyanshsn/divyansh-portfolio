@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; background: #1e1e1e; color: #cccccc; overflow: hidden; }
+::selection { background: #264f78; }
+* { scrollbar-width: thin; scrollbar-color: #424242 transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #3c3c3c; border: 2px solid transparent; background-clip: content-box; }
+::-webkit-scrollbar-thumb:hover { background: #4f4f4f; background-clip: content-box; border: 2px solid transparent; }
+
+/* VS Code Dark+ syntax palette */
+.t-c { color: #6a9955; }   .t-p { color: #c586c0; }   .t-key { color: #9cdcfe; }
+.t-s { color: #ce9178; }   .t-n { color: #b5cea8; }   .t-k { color: #569cd6; }
+.t-t { color: #4ec9b0; }   .t-prop { color: #9cdcfe; } .t-f { color: #dcdcaa; }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
